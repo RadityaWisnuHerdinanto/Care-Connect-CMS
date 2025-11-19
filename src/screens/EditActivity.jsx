@@ -61,7 +61,7 @@ export default function EditActivity() {
 
             // Show map if location has coordinates
             if (activity.location?.lat && activity.location?.lng) {
-                setShowMap(true);
+                setShowMapPicker(true);
             }
         } catch (err) {
             console.error("Failed to fetch activity:", err);
